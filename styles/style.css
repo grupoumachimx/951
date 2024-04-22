@@ -20,6 +20,7 @@ header {
 
 .menu-hamburguesa {
   position: relative;
+  margin-top: -25px;
 }
 
 .menu-hamburguesa input[type="checkbox"] {
@@ -72,6 +73,7 @@ header {
 .logo {
   max-width: 200px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 /* Botones derecha */

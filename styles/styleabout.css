@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
-  height: 20px;
+  height: 40px;
 }
 
 /* Menú hamburguesa */
@@ -23,6 +23,7 @@ header {
 
 .menu-hamburguesa {
   position: relative;
+  margin-top: -25px;
 }
 
 .menu-hamburguesa input[type="checkbox"] {
@@ -110,6 +111,7 @@ header {
 .logo {
   max-width: 200px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 /* Botones derecha */

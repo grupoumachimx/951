@@ -21,6 +21,7 @@ header {
 
 .menu-hamburguesa {
   position: relative;
+  margin-top: -25px;
 }
 
 .menu-hamburguesa input[type="checkbox"] {
@@ -73,6 +74,7 @@ header {
 .logo {
   max-width: 200px;
   margin: 0 auto;
+  margin-top: -15px;
 }
 
 /* Botones derecha Header */
@@ -116,6 +118,10 @@ header {
 }
 
   /* Boody */
+
+  .calendario{
+    display: none;
+  }
 
   .body-cont 
   {
@@ -260,11 +266,15 @@ header {
     {
       color: #292432;
       font-size: 120px;
+      margin-top: 70px;
     }
     }
     @media (max-width: 768px) {
       .body-cont {
         display: none;
+      }
+      .calendario{
+        display: block;
       }
 
       .body-cont h1
